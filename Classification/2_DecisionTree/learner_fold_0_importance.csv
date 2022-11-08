@@ -1,0 +1,33 @@
+feature,mean_importance
+APR DRG Code,0.0
+Total Charges,0.0
+Emergency Department Indicator,0.0
+Abortion Edit Indicator,0.0
+Birth Weight,0.0
+Payment Typology 3,0.0
+Payment Typology 2,0.0
+Payment Typology 1,0.0
+APR Medical Surgical Description,0.0
+APR Risk of Mortality,0.0
+APR Severity of Illness Description,0.0
+APR Severity of Illness Code,0.0
+APR MDC Description,0.0
+APR MDC Code,0.0
+APR DRG Description,0.0
+sparcs_los,0.0
+CCS Procedure Description,0.0
+CCS Procedure Code,0.0
+CCS Diagnosis Description,0.0
+CCS Diagnosis Code,0.0
+Patient Disposition,0.0
+Type of Admission,0.0
+Gender,0.0
+Age Group,0.0
+Facility Name,0.0
+Facility Id,0.0
+Total Costs,0.0
+Health Service Area,0.0036791799164297865
+Operating Certificate Number,0.013738878055522364
+Hospital County,0.033305858522472476
+Ethnicity,0.15583812434369573
+Zip Code - 3 digits,0.2051487486083397

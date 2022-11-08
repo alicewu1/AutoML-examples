@@ -1,0 +1,16 @@
+if (Zip Code - 3 digits > 13.5) and (Ethnicity <= 1.5) and (Zip Code - 3 digits > 15.5) then class: White (proba: 84.35%) | based on 5,264 samples
+
+if (Zip Code - 3 digits <= 13.5) and (Ethnicity <= 1.5) and (Hospital County > 22.5) then class: White (proba: 48.04%) | based on 3,603 samples
+
+if (Zip Code - 3 digits <= 13.5) and (Ethnicity <= 1.5) and (Hospital County <= 22.5) then class: Black/African American (proba: 49.1%) | based on 1,717 samples
+
+if (Zip Code - 3 digits <= 13.5) and (Ethnicity > 1.5) and (Operating Certificate Number > 7000012.5) then class: Other Race (proba: 55.81%) | based on 998 samples
+
+if (Zip Code - 3 digits <= 13.5) and (Ethnicity > 1.5) and (Operating Certificate Number <= 7000012.5) then class: Other Race (proba: 81.95%) | based on 532 samples
+
+if (Zip Code - 3 digits > 13.5) and (Ethnicity <= 1.5) and (Zip Code - 3 digits <= 15.5) then class: White (proba: 64.33%) | based on 513 samples
+
+if (Zip Code - 3 digits > 13.5) and (Ethnicity > 1.5) and (Health Service Area > 1.5) then class: Other Race (proba: 58.64%) | based on 486 samples
+
+if (Zip Code - 3 digits > 13.5) and (Ethnicity > 1.5) and (Health Service Area <= 1.5) then class: White (proba: 63.16%) | based on 152 samples
+

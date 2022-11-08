@@ -1,0 +1,132 @@
+{
+    "uid": "ad2c618c-b734-4dbd-b716-5b2ad00c4317",
+    "name": "2_DecisionTree",
+    "preprocessing": [
+        {
+            "missing_values": [
+                {
+                    "fill_method": "na_fill_median",
+                    "fill_params": {
+                        "feature_1": 5.8,
+                        "feature_2": 3.0,
+                        "feature_3": 4.25,
+                        "feature_4": 1.3
+                    },
+                    "datetime_columns": []
+                }
+            ],
+            "categorical_y": {
+                "1.0": 0,
+                "2.0": 1,
+                "121.0": 2
+            },
+            "ml_task": "multiclass_classification",
+            "params": {
+                "columns_preprocessing": {
+                    "feature_1": [
+                        "na_fill_median"
+                    ],
+                    "feature_2": [
+                        "na_fill_median"
+                    ],
+                    "feature_3": [
+                        "na_fill_median"
+                    ],
+                    "feature_4": [
+                        "na_fill_median"
+                    ]
+                },
+                "target_preprocessing": [
+                    "na_exclude",
+                    "categorical_to_int"
+                ],
+                "ml_task": "multiclass_classification"
+            }
+        }
+    ],
+    "learners": [
+        {
+            "library_version": "1.0.2",
+            "algorithm_name": "Decision Tree",
+            "algorithm_short_name": "Decision Tree",
+            "uid": "ac595ec1-494c-4110-b5a5-744fa11db114",
+            "params": {
+                "model_type": "Decision Tree",
+                "ml_task": "multiclass_classification",
+                "n_jobs": -1,
+                "seed": 1235,
+                "criterion": "gini",
+                "max_depth": 3,
+                "num_class": 3,
+                "explain_level": 2
+            },
+            "name": "learner_fold_0"
+        }
+    ],
+    "params": {
+        "additional": {
+            "trees_in_step": 1,
+            "train_cant_improve_limit": 0,
+            "max_steps": 1,
+            "max_rows_limit": null,
+            "max_cols_limit": null
+        },
+        "preprocessing": {
+            "columns_preprocessing": {
+                "feature_1": [
+                    "na_fill_median"
+                ],
+                "feature_2": [
+                    "na_fill_median"
+                ],
+                "feature_3": [
+                    "na_fill_median"
+                ],
+                "feature_4": [
+                    "na_fill_median"
+                ]
+            },
+            "target_preprocessing": [
+                "na_exclude",
+                "categorical_to_int"
+            ],
+            "ml_task": "multiclass_classification"
+        },
+        "validation_strategy": {
+            "validation_type": "split",
+            "train_ratio": 0.75,
+            "shuffle": true,
+            "stratify": true,
+            "X_path": "sparcs_regression/X.data",
+            "y_path": "sparcs_regression/y.data",
+            "results_path": "sparcs_regression"
+        },
+        "learner": {
+            "model_type": "Decision Tree",
+            "ml_task": "multiclass_classification",
+            "n_jobs": -1,
+            "seed": 1235,
+            "criterion": "gini",
+            "max_depth": 3,
+            "num_class": 3,
+            "explain_level": 2
+        },
+        "automl_random_state": 1234,
+        "ml_task": "multiclass_classification",
+        "explain_level": 2,
+        "name": "2_DecisionTree",
+        "status": "initialized",
+        "final_loss": null,
+        "train_time": null,
+        "data_type": "original",
+        "max_time_for_learner": 360.0
+    },
+    "saved": [
+        "2_DecisionTree/learner_fold_0.decision_tree"
+    ],
+    "predictions_fname": "2_DecisionTree/predictions_validation.csv",
+    "metric_name": "logloss",
+    "final_loss": 1.500057228529461,
+    "train_time": 6.782199144363403,
+    "is_stacked": false
+}
