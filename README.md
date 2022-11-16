@@ -14,7 +14,7 @@
 # Experiment 1: Classification (Binary)
 - This experiment focused around classification using a binary variable
 - Dependent Variable Tested: Race 
-- Best Model: **Decision Tree**
+- Best Model: **XgBoost**
 -     Comparing Log-loss: Lower log loss means better predictions 
         -   Baseline: 1.0208
         -   Decision Tree: 0.631893
